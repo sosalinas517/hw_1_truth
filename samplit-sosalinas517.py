@@ -10,4 +10,4 @@ import random
 for line in open("nobel-prize-laureates.csv"):
     if random.random() < 0.01:
         print(line, end='')
-
+        print("Hello :P")
